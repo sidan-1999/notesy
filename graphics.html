@@ -20,7 +20,32 @@
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+   
+  <style>
 
+    ul.breadcrumb {
+      padding: 10px 16px;
+      list-style: none;
+      background-color: #cfe3e8;
+    }
+    ul.breadcrumb li {
+      display: inline;
+      font-size: 18px;
+    }
+    ul.breadcrumb li+li:before {
+      padding: 8px;
+      color: black;
+      content: "/\00a0";
+    }
+    ul.breadcrumb li a {
+      color: #0275d8;
+      text-decoration: none;
+    }
+    ul.breadcrumb li a:hover {
+      color: #01447e;
+      text-decoration: none;
+    }
+    </style>
 </head>
 <body>
     <div><nav class="navbar navbar-expand-lg navbar-light bg-light">
